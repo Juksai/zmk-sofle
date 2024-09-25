@@ -46,6 +46,13 @@
             bindings = <&none &kp J &kp J &kp K &kp K &kp RET>;
             label = "NEW_MACRO";
         };
+
+        new_macro2: new_macro2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp RG(X) &kp U &kp S>;
+            label = "NEW_MACRO2";
+        };
     };
 
     keymap {
@@ -66,11 +73,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE     &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6            &kp F7        &kp F8        &kp F9     &kp F10           &kp EQUAL
-&bt BT_CLR    &bt BT_CLR_ALL   &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp HOME   &kp MINUS         &kp RIGHT_BRACKET
-&bt BT_SEL 0  &bt BT_DISC 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4     &mkp MB5           &mmv MOVE_LEFT   &kp NUMBER_4      &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT  &kp LEFT_BRACKET  &kp BSLH
-&trans        &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp F11    &kp F12           &kp RIGHT_SHIFT
-&kp C_MUTE    &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp C_SLEEP_MODE  &kp TILDE2    &kp NUMBER_0  &kp DOT    &kp LG(L)
+&kp GRAVE     &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6        &kp F7        &kp F8        &kp F9     &kp F10           &kp EQUAL
+&bt BT_CLR    &bt BT_CLR_ALL   &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HOME   &kp MINUS         &kp RIGHT_BRACKET
+&bt BT_SEL 0  &bt BT_DISC 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4     &mkp MB5           &mmv MOVE_LEFT   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT  &kp LEFT_BRACKET  &kp BSLH
+&trans        &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp F11    &kp F12           &kp RIGHT_SHIFT
+&kp C_MUTE    &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp K_SLEEP   &kp TILDE     &kp NUMBER_0  &kp DOT    &kp LG(L)
             >;
 
             display-name = "layer1";
