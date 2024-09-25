@@ -52,7 +52,7 @@
             #binding-cells = <0>;
             bindings =
                 <&none &kp SPACE &kp RG(X)>,
-                <&macro_wait_time 66>,
+                <&macro_wait_time 1111>,
                 <&kp U &kp S>;
 
             label = "NEW_MACRO2";
