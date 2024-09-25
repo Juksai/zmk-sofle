@@ -50,8 +50,13 @@
         new_macro2: new_macro2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp RG(X) &kp U &kp S>;
+            bindings =
+                <&none &kp SPACE &kp RG(X)>,
+                <&macro_wait_time 66>,
+                <&kp U &kp S>;
+
             label = "NEW_MACRO2";
+            wait-ms = <0>;
         };
     };
 
