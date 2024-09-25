@@ -81,7 +81,7 @@
 &kp F1        &kp F2           &kp F3          &kp F4           &kp F5           &kp F6             &mmv MOVE_UP     &kp F7        &kp F8        &kp F9        &kp F10  &kp F11           &kp F21
 &bt BT_CLR    &trans           &mkp MB5        &mkp MB4         &trans           &trans             &mmv MOVE_DOWN   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans   &kp MINUS         &kp EQUAL
 &bt BT_SEL 0  &mkp MB5         &mkp LCLK       &mkp MCLK        &mkp RCLK        &kp TILDE          &mmv MOVE_LEFT   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans   &kp LEFT_BRACKET  &kp BSLH
-&bt BT_SEL 1  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans   &kp F12           &kp RIGHT_SHIFT
+&bt BT_SEL 1  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans   &kp F12           &trans
 &kp C_MUTE    &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans        &kp RSHIFT    &kp NUMBER_0  &kp DOT  &kp RIGHT_GUI
             >;
 
