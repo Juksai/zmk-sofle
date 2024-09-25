@@ -92,7 +92,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - '&new_macro3'
+  - RGB TOG
   - RGB SPD
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -105,7 +105,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: \, s: '|'}
-  - RGB TOG
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB HUI
   - RGB HUD
   - RGB SAI
